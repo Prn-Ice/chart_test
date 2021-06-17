@@ -1,0 +1,3 @@
+Because bezier_chart >=1.0.15 depends on intl ^0.16.0 and chart_test depends on intl 0.17.0, bezier_chart >=1.0.15 is forbidden.
+So, because chart_test depends on bezier_chart 1.0.17+1, version solving failed.
+pub get failed (1; So, because chart_test depends on bezier_chart 1.0.17+1, version solving failed.)
