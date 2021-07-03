@@ -14,7 +14,7 @@ class Chart2 extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: context.width,
-      height: 200,
+      height: 93,
       child: controller.obx(
         (state) {
           List<double> getPrices() =>
@@ -41,7 +41,7 @@ class Chart2 extends GetView<HomeController> {
               titlesData: FlTitlesData(
                 leftTitles: SideTitles(
                   showTitles: true,
-                  interval: bisectTick(getDiff(), 10),
+                  interval: bestTick(getDiff(), 3),
                   reservedSize: 40,
                 ),
                 bottomTitles: SideTitles(showTitles: true, interval: 24),
